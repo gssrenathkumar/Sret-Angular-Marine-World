@@ -1,0 +1,27 @@
+<br>
+<div style="text-align: center;">
+   <h1>Here is Sea Animals Family </h1>
+   <table border="3" class="center">
+    <tr>
+    <th>Sea Animals</th>
+    <th>Family</th>
+    <th>No.of Types</th>
+    </tr>
+    <!---mobileinfor is property, *ngFor fethches the value of the property into table-->
+    <tr *ngFor="let item of mobileinfo">
+    <td [style.color]="color"> {{item.name}}</td>
+    <td [style.color]="color">{{item.family}}</td>
+    <td [style.color]="color">{{item.types}}</td>
+    </tr>
+    </table>
+    <br>
+
+    <div style="text-align: center;">
+      <button (click)="updateColor()">Update color</button>
+    </div>
+</div>
+
+
+  
+
+ <!--End-->

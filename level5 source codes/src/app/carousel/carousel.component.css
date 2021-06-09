@@ -1,0 +1,26 @@
+
+    .demo-content{
+        padding: 40px;
+        font-size: 40px;
+        background: #aadfe5;
+        margin-bottom: 40px;
+                }
+   .demo-content.bg-alt{
+          background: #adb1b8;
+                       }
+   .carousel-inner > .item {
+    height: 500px;
+                          }
+ 
+   content{
+         padding: 15px;
+         font-size: 18px;
+         background: #ceb3ad;
+         margin-bottom: 15px;
+           }
+   .content.bg-alt{
+         background: #cddadb;
+                  }
+    h2 {
+       text-align: center;
+       }

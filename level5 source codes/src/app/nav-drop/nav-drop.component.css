@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body{background-color:#FCFFFE;}
+.navBAR{
+	margin:0 auto;
+	width:1080px;
+	
+}
+.navBAR ul{
+	padding:0px;
+}
+.navBAR ul li{
+	float:left;
+	margin: 1px;
+	position:relative; /*--*/
+	border: solid 1px red;
+	border-radius: 5px;
+	list-style-type:none;
+	background-color:red;;
+	}
+.navBAR ul li a{
+	text-decoration:none;
+	color:white;
+	padding:5px;
+	font-weight:bolder;
+	display: block;
+	width:200px;
+	text-align:center;
+	}
+.navBAR ul li ul {
+	position:absolute; /*Trick here go down all li vertical..*/
+	visibility:hidden;
+	}
+.navBAR ul li:hover ul{
+	visibility: visible;/*the magic happen here*/
+	}
+.navBAR ul li:hover{
+	background-color:lightblue;; /*change bg when hove over each liste item.*/
+	}	
+.navBAR ul li ul li a:hover{
+	background-color:aqua;
+	}
+.navBAR ul li a:hover{
+	color:blue;}
